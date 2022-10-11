@@ -1,0 +1,391 @@
+<div class="main">
+    <div class="bottom-left text-white">Meet the Tibud Team</div>
+</div>
+
+<h2 class="text-center">Board of Directors</h2>
+<div class="container0">
+    <div class="content">
+        <div class="image-container">
+            <img src="./img/staff/chair1.jpg" alt="">
+            <div class="footer">
+                <p>Lubin R. Tumbagahan</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/chair2.png" alt="">
+            <div class="footer">
+                <p>Liza D. Hora</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/chair3.png" alt="">
+            <div class="footer">
+                <p>Jerry F. Gabilagon</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/chair4.jpg" alt="">
+            <div class="footer">
+                <p>Ruben L. Ulanday</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/chair5.jpg" alt="">
+            <div class="footer">
+                <p>Margie S. Managuit</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/chair6.jpg" alt="">
+            <div class="footer">
+                <p>Rey A. Sultan</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center">Management & Staff</h2>
+<div class="container1">
+    <div class="content">
+        <div class="image-container">
+            <img src="./img/staff/junbard.jpg" alt="">
+            <div class="footer">
+                <p>Junbard N.  Mahinay</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/analyn.jpg" alt="">
+            <div class="footer">
+                <p>Analyn F. Pabillo</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/erljohn.jpg" alt="">
+            <div class="footer">
+                <p>Erljohn V. Dulla</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/juser.jpg" alt="">
+            <div class="footer">
+                <p>Juser A. Conat</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/ariel.jpg" alt="">
+            <div class="footer">
+                <p>Ariel B. Dela Cruz</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/henry.jpg" alt="">
+            <div class="footer">
+                <p>Henry S.  Cuna</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/paul.jpg" alt="">
+            <div class="footer">
+                <p>Paul Ryan G. Elardo</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/evelyn.jpg" alt="">
+            <div class="footer">
+                <p>Medcyl M. Trazo</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/grace.jpg" alt="">
+            <div class="footer">
+                <p>Mary Grace Festijo</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/mary.jpg" alt="">
+            <div class="footer">
+                <p>Mary Grace T.  Sebua</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/shiela.jpg" alt="">
+            <div class="footer">
+                <p>Shiela D.  Paculob</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/erick.jpg" alt="">
+            <div class="footer">
+                <p>Erick Galenzoga</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./img/staff/khin.jpg" alt="">
+            <div class="footer">
+                <p>Khin Betty Beldad</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    @media (min-width: 1200px) {
+        .main {
+            position: relative;
+            text-align: center;
+            height: 70vh;
+            width: 100%;
+            background-color: black;
+        }
+        .bottom-left {
+            position: absolute;
+            bottom: 40px;
+            left: 16px;
+            padding: 5rem 10rem;
+            font-size: 5rem;
+            font-weight: 600;
+        }
+        h2{
+            font-size: 35px;
+            font-weight: 700;
+            padding: 5rem 0rem;
+        }
+        .container0 {
+            width:100%;
+            height:auto;
+        }
+        .container0 .content {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem 10rem;
+        }
+
+        .container0 .content .image-container{
+            height: 15rem;
+            width: 15rem;
+            margin: 30px;
+        }
+
+        .container0 .content div img{
+            height: 100%; 
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .container0 .content div:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            border: 0px;
+            transition: all .5s ease;
+        }
+
+        .container0 .content div:hover .footer{
+            display: block;
+            pointer-events: none;
+            transition: all .5s ease;
+        }
+
+        .container0 .content .image-container .footer{
+            display: none;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image: linear-gradient(rgba(31, 31, 32, 0.3),rgba(31, 31, 32, 0.3));
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .container1 {
+            width:100%;
+            height:auto;
+        }
+        .container1 .content {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem 10rem;
+        }
+
+        .container1 .content .image-container{
+            height: 15rem;
+            width: 15rem;
+            margin: 30px;
+        }
+
+        .container1 .content div img{
+            height: 100%; 
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .container1 .content div:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            border: 0px;
+            transition: all .5s ease;
+        }
+
+        .container1 .content div:hover .footer{
+            display: block;
+            pointer-events: none;
+            transition: all .5s ease;
+        }
+
+        .container1 .content .image-container .footer{
+            display: none;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image: linear-gradient(rgba(31, 31, 32, 0.3),rgba(31, 31, 32, 0.3));
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+
+    @media (max-width: 1200px) {
+        .main {
+            position: relative;
+            text-align: center;
+            height: 70vh;
+            width: 100%;
+            background-color: black;
+        }
+        .bottom-left {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            padding: 5rem 5rem;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+            padding: 2rem 0rem;
+        }
+        .container0 {
+            width:100%;
+            height:auto;
+        }
+        .container0 .content {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .container0 .content .image-container{
+            height: 15rem;
+            width: 15rem;
+            margin: 30px;
+        }
+
+        .container0 .content div img{
+            height: 100%; 
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .container0 .content div:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            border: 0px;
+        }
+
+        .container0 .content div:hover .footer{
+            display: block;
+            pointer-events: none;
+        }
+
+        .container0 .content .image-container .footer{
+            display: none;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image: linear-gradient(rgba(31, 31, 32, 0.3),rgba(31, 31, 32, 0.3));
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .container1 {
+            width:100%;
+            height:auto;
+        }
+        .container1 .content {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .container1 .content .image-container{
+            height: 15rem;
+            width: 15rem;
+            margin: 30px;
+        }
+
+        .container1 .content div img{
+            height: 100%; 
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .container1 .content div:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            border: 0px;
+        }
+
+        .container1 .content div:hover .footer{
+            display: block;
+            pointer-events: none;
+        }
+
+        .container1 .content .image-container .footer{
+            display: none;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image: linear-gradient(rgba(31, 31, 32, 0.3),rgba(31, 31, 32, 0.3));
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/circle.js"></script>

@@ -1,0 +1,26 @@
+.footer-container{
+    width: 100%;
+    height: 100%;
+    padding: 5rem 5rem;
+    background-color: #ededed;
+}
+
+.footer-container .card-body{
+    background-color: #ededed;
+}
+
+.footer-container h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer-container h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer-container a{
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+}
